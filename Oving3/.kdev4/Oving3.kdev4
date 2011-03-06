@@ -1,0 +1,36 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+
+[CMake]
+BuildDirs=/home/sindre/Dropbox/skole/c++/Ovinger/Oving3/build
+CMakeDir=/Modules
+Current CMake Binary=file:///usr/bin/cmake
+CurrentBuildDir=file:///home/sindre/Dropbox/skole/c++/Ovinger/Oving3/build
+CurrentBuildType=Debug
+CurrentInstallDir=
+Extra Arguments=
+ProjectRootRelative=./
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=debug
+Configured Launchers=gdb
+Name=oving3
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Configured from ProjectItem=Oving3,oving3
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x0c\x00O\x00v\x00i\x00n\x00g\x003\x00\x00\x00\x0c\x00o\x00v\x00i\x00n\x00g\x003)
+Dependency Action=Build
+EnvironmentGroup=default
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=Oving3,oving3
+Use External Terminal=true
+Working Directory=file:///home/sindre/Dropbox/skole/c++/Ovinger/Oving3/build/
+isExecutable=false
+
+[MakeBuilder]
+Number Of Jobs=3
