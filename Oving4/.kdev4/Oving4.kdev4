@@ -27,3 +27,6 @@ EnvironmentGroup=default
 Project Target=Oving4,oving4
 Working Directory=
 isExecutable=false
+
+[Project]
+VersionControlSupport=kdevgit

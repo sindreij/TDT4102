@@ -3,11 +3,15 @@
 #include "cstrings.h"
 #include "dynamicArrays.h"
 #include "minesweeper.h"
+#include "integerset.h"
+#include "student.h"
 using namespace std;
 
 int main(int argc, char **argv) {
     cout << "-- Øving 6 --" << endl;
     cout << "-------------" << endl;
+    testIntegerSet();
+    
     bool done = false;
     while (!done)
     {
@@ -55,11 +59,15 @@ int main(int argc, char **argv) {
 
 
         case 5:
-        
+            cout << "\nDel 5, Integer Set" << endl;
+            cout << "-----" << endl;
+            testIntegerSet();
             break;
 
         case 6:
-        
+            cout << "\nDel 6, Student and courses" << endl;
+            cout << "-----" << endl;
+            testStudent();
             break;
         case 0:
             done = true;

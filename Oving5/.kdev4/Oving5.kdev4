@@ -30,3 +30,6 @@ Project Target=Oving5,oving5
 Use External Terminal=true
 Working Directory=
 isExecutable=false
+
+[Project]
+VersionControlSupport=kdevgit
